@@ -10,6 +10,12 @@
       "homepage": "http://www.themosis.com/"
     }
   ],
+  "repositories":[
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
   "type": "wordpress-theme",
   "require": {
     "php": ">=5.6.4",
@@ -22,6 +28,7 @@
     "illuminate/events": "^5.4",
     "illuminate/view": "^5.4",
     "illuminate/filesystem": "^5.4",
-    "illuminate/database": "^5.4"
+    "illuminate/database": "^5.4",
+    "illuminate/pagination": "^5.7"
   }
 }
