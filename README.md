@@ -1,23 +1,23 @@
-Themosis framework - Theme
+Themosis Theme Boilerplate - Theme
 ==========================
 
-The Themosis framework is a tool aimed to WordPress developers of any levels. But the better WordPress and PHP knowledge you have the easier it is to work with.
+This is a boilerplate theme for the [Themosis](https://github.com/themosis/themosis) 
+Wordpress Framework. This theme was designed to be more prescriptive than the default 
+one so my team and I could all be on the same page with regards to how we use themosis 
+and to also to save some time in setup.
 
-Themosis framework is a tool to help you develop websites and web applications faster using [WordPress](https://wordpress.org/). Using an elegant and simple code syntax, Themosis framework helps you structure and organize your code and allows you to better manage and scale your WordPress websites and applications.
+This is for Themosis 1.3 as many of the additions in this theme are present in 
+the themosis 2.0 theme. That being said the main goal for this theme is to be 
+opinionated and prescriptive so I probably will make one for 2.0 when ive had a chance 
+to use it in a project
 
-Development team
-----------------
-The framework was created by [Julien Lambé](http://www.themosis.com/), who continues to lead the development.
-
-Contributing
-------------
-Any help is appreciated. The project is open-source and we encourage you to participate. You can contribute to the project in multiple ways by:
-
-- Reporting a bug issue
-- Suggesting features
-- Sending a pull request with code fix or feature
-- Following the projects on [GitHub](https://github.com/themosis)
-- Following us on Twitter: [@Themosis](https://twitter.com/Themosis)
-- Sharing the project around your community
-
-For details about contributing to the framework, please check the [contribution guide](http://framework.themosis.com/docs/1.3/contributing/).
+The main things this theme provides are:
+- A basic Post model for all wordpress postTypes to be extended from.
+- Models taken and adapted from the 
+[wordpress-eloquent](https://github.com/drewjbartlett/wordpress-eloquent) project.
+- A consistent folder structure within the `js` `sass` and `views` directories.
+- A simple module system for javascript.
+- Some helper methods for `js` `scss` and `php`.
+- `laravel-mix` instead of `gulp`.
+- Some examples of how to use bothe themosis core features and the features 
+in this boilerplate.

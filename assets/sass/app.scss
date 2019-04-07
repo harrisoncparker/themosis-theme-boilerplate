@@ -3,13 +3,13 @@
 // PLUGINS
 // eg ===> @import url("//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css");
 
-// Utilities
-@import "utils";
+// Functions
+@import "utils/helper-functions";
 
 // Mixins
-@import "mixins/common";
-@import "mixins/breakpoints";
-@import "mixins/_theme-components";
+@import "utils/mixins/common";
+@import "utils/mixins/breakpoints";
+@import "utils/mixins/_theme-components";
 
 // Global
 @import 'variables';
