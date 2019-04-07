@@ -1,0 +1,66 @@
+$fontSizeBP: 620;
+
+html {
+	font-size: 100%;
+
+	@include width-up(2400) {
+		font-size: 125%;
+	}
+
+	@include width-up(2000) {
+		font-size: 110%;
+	}
+
+	@include width-down($fontSizeBP) {
+		font-size: 85%;
+	}
+}
+
+body {
+	font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, p {
+	font-family: $title-font;
+	font-weight: normal;
+	line-height: 1;
+	margin-bottom: rem(20);
+
+	@include width-down($fontSizeBP) {
+		margin-bottom: rem(16);
+	}
+}
+
+h1, .h1-styles {
+	font-size: 3.975rem;
+}
+
+h2, .h2-styles {
+	font-size: 3.25rem;
+}
+
+h3, .h3-styles {
+	font-size: 2.375rem;
+}
+
+h4, .h4-styles {
+	font-size: 1.875rem;
+}
+
+h5, .h5-styles {
+	font-size: 1.375rem;
+}
+
+p,
+.p-styles {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: $body-font;
+}
+
+a,
+.link-styles {
+	text-decoration: none;
+	font-family: $body-font;
+	font-size: 1rem;
+}
